@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title1">
+  <title id="title1">Cloak shield with mask</title>
+  <!-- shield -->
+  <path d="M32 4 L52 12 V28 C52 44 41 55 32 60 C23 55 12 44 12 28 V12 Z" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+  <!-- mask band -->
+  <rect x="12" y="26" width="40" height="10" rx="2" ry="2" fill="#000"/>
+  <!-- eye slits (revealed holes) -->
+  <ellipse cx="24" cy="31" rx="3" ry="1.2" fill="#fff"/>
+  <ellipse cx="40" cy="31" rx="3" ry="1.2" fill="#fff"/>
+  <!-- stitching lines -->
+  <line x1="10" y1="28" x2="14" y2="28" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+  <line x1="50" y1="28" x2="54" y2="28" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+</svg>
