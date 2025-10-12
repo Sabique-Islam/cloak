@@ -1,0 +1,5 @@
+- Get GitHub Pro Student Developer Pack.
+- Get a domain on namecheap for free.
+- https://www.youtube.com/watch?v=XWBSq4jnH4g : Setup Cloudfare
+- Create a fake DNS record (TXT)
+- https://dnschecker.org/ [check here]
