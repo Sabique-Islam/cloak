@@ -24,4 +24,6 @@ go.work
 .env.local
 .env
 
+.DS_Store
+
 IdeationDocs
