@@ -3,3 +3,4 @@
 - https://www.youtube.com/watch?v=XWBSq4jnH4g : Setup Cloudfare
 - Create a fake DNS record (TXT)
 - https://dnschecker.org/ [check here]
+- https://toolbox.googleapps.com/apps/dig/#A/
