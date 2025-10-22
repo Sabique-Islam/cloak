@@ -36,3 +36,34 @@ Follow these guidelines to help maintain code quality.
 - Test database interactions and API calls where applicable.
 
 ---
+
+## Linting & Checks
+
+Before submitting a PR, run the following checks locally:
+
+### Linting :-
+
+```
+golangci-lint run
+```
+
+Ensure that no linting errors remain.
+
+### Run Tests :-
+
+```
+go test ./... -v
+```
+
+All tests should pass.
+
+### Formatting :-
+
+```
+go fmt ./...
+go vet ./...
+```
+
+Ensure code is properly formatted.
+
+---
