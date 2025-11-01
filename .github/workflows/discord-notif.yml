@@ -1,0 +1,23 @@
+name: Discord Notifications
+
+on:
+  push:
+  pull_request:
+  issues:
+  release:
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send event to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          EVENT_TYPE=${GITHUB_EVENT_NAME:-unknown}
+          ACTOR=${GITHUB_ACTOR:-someone}
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "{\"content\": \"${EVENT_TYPE^} triggered by ${ACTOR}\"}" \
+               "$DISCORD_WEBHOOK"
