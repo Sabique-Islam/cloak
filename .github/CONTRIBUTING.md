@@ -10,7 +10,7 @@ Follow these guidelines to help maintain code quality.
 ## Getting Started
 
 - Fork the repository and clone your fork.
-- Set up your Go environment and install dependencies. "[Check SETUP.md for assistance](./SETUP.md)"
+- Set up your Go environment and install dependencies. "[Check SETUP.md for assistance](.github/SETUP.md)"
 - Create a new branch for your feature or fix.
 - Make changes, test locally, and commit.
 
