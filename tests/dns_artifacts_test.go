@@ -371,8 +371,8 @@ func TestListActiveDNSArtifacts(t *testing.T) {
 	}
 
 	// Clean up
-	generator.DeleteDNSRecord(ctx, artifact1)
-	generator.DeleteDNSRecord(ctx, artifact2)
+	_ = generator.DeleteDNSRecord(ctx, artifact1)
+	_ = generator.DeleteDNSRecord(ctx, artifact2)
 }
 
 // TestGetDNSRecordInfo tests parsing artifact metadata
